@@ -1,1 +1,8 @@
-{}
+{
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "ru",
+    "en-GB"
+  ],
+  "showFrontmatter": false
+}

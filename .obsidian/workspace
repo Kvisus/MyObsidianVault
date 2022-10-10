@@ -7,8 +7,12 @@
         "id": "fae39c54d092428d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "React.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 176.5
   },
   "right": {
     "id": "924c158fe10b8573",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React.md"
+              }
             }
           }
         ]
@@ -121,5 +129,11 @@
     "collapsed": true
   },
   "active": "fae39c54d092428d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "markDown.md",
+    "React.md",
+    "Emmet.md",
+    "2022-10-09.md",
+    "README.md"
+  ]
 }
