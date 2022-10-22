@@ -88,3 +88,43 @@ const completedTasks = tasks.filter(task=> task.isCompleted).length;
     loadSavedTasks();
   }, []); //Empty dep array => executes once onLoad
 ```
+
+## Images import from folder
+
+``` jsx
+//icons.js
+ export const file1 = require("./IconRed_100x100.png");
+ export const file2 = require("./IconSilver_100x100.png");
+ export const file3 = require("./IconWhite_100x100.png");
+ export const file4 = require("./IconBrown1_100x100.png");
+ export const file5 = require("./IconBrown2_100x100.png");
+ export const file6 = require("./IconGray_100x100.png");
+ export const file7 = require("./IconMetallic_100x100.png");
+ export const file8 = require("./IconMetallic_100x100.png");
+ export const file9 = require("./IconMetallic_100x100.png");
+ export const file10 = require("./IconMetallic_100x100.png");
+```
+
+```jsx
+import * as ALL from "../assets/png/icons";
+
+ const itemsToRender = [];
+ for (let x in ALL) {
+  console.log(x);
+  itemsToRender.push(
+    <div key={x} className="image-gallery-item">
+     <img src={ALL[x]}></img>
+    </div>
+  );
+ }
+
+ function ImageGallery() {
+ return (
+   <>
+    <div className="image-gallery">{itemsToRender}</div>
+   </>
+  );
+ }
+
+ export default ImageGallery;
+```
